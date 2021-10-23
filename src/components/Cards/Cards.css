@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Gluten:wght@300&display=swap');
+
+
+.rectangle1 {
+    cursor: pointer;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;    width: 306px;
+    height: 479px;
+    background: #F0EEF5;
+
+    border-radius: 10px;
+    margin: auto auto 140px auto;
+    transition: 0.3s linear;
+    
+
+    border-radius: 10px;
+  
+}
+
+.rectangle1:hover{transform: translateY(-4px);}
+
+.rectangle2 {
+    height: 224px;
+    border-radius: 10px 10px 0 0;
+    width: 306;
+    z-index: 1;
+}
+
+.elipse1 {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    position: absolute;
+    border-radius: 100%;
+    width: 243px;
+    height: 243px;
+    right: 33px;
+    top: 27px;
+    background: #4F4B4B;
+}
+
+.elipse2 {
+    z-index: 2;
+    border-radius: 100%;
+    width: 213px;
+    height: 213px;
+    margin: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background: #C4C4C4;
+}
+
+.elipse2 > img {
+    z-index: 1;
+    position: absolute;
+    border-radius: 100%;
+    width: 213px;
+    height: 213px;
+}
+
+.rectangle3 {
+    margin-top: 150px;
+    z-index: 2;
+    
+  
+}
+
+.text {
+    text-align: center;;
+    font-family: 'Gluten', cursive;
+    font-size: 25px !important;
+    color: #000000;
+
+}
+
+.text2 {
+    text-align: center;;
+    font-family: 'Gluten', cursive;
+    font-size: 25px !important;
+    color: #000000;
+}
+
+.text3 {
+    text-align: center;;
+    font-family: 'Gluten', cursive;
+    font-size: 25px !important;
+    color: #000000;
+}
+
+.text4 {
+    text-align: center;;
+    font-family: 'Gluten', cursive;
+    font-size: 25px !important;
+    color: #000000;
+}

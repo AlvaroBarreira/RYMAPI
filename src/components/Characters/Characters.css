@@ -1,0 +1,8 @@
+.cards-container {
+    display: grid;
+    padding: 120px 140px 290px 140px;
+}
+
+.svg-container {
+    margin: auto;
+}
